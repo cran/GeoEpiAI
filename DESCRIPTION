@@ -1,0 +1,47 @@
+Package: GeoEpiAI
+Type: Package
+Title: GeoAI and Digital Epidemiology Tools for Disease Surveillance
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Vinodhkumar",
+      "Obli Rajendran",
+      email = "vinodhkumar.rajendran@gmail.com",
+      role = c("aut", "cre")
+    ),
+    person(
+      "Keerthi",
+      "Aaradhana",
+      email = "vkeerthi1817@gmail.com",
+      role = "aut"
+    )
+  )
+Author: Vinodhkumar Obli Rajendran [aut, cre],
+  Keerthi Aaradhana [aut]
+Maintainer: Vinodhkumar Obli Rajendran <vinodhkumar.rajendran@gmail.com>
+Description: Provides tools for digital epidemiology and geospatial
+    artificial intelligence, including surveillance-data cleaning,
+    spatial epidemiology, spatial autocorrelation and hotspot detection,
+    environmental data integration, machine-learning-based disease-risk
+    prediction, dynamic risk mapping, early-warning detection, and
+    automated epidemiological reporting. The methods include spatial
+    autocorrelation (Moran, 1950)
+    <doi:10.1093/biomet/37.1-2.17>, local spatial association analysis
+    (Getis and Ord, 1992) <doi:10.1111/j.1538-4632.1992.tb00261.x>,
+    Random Forest (Breiman, 2001) <doi:10.1023/A:1010933404324>,
+    XGBoost (Chen and Guestrin, 2016)
+    <doi:10.1145/2939672.2939785>, and spatial data handling
+    (Pebesma, 2018) <doi:10.32614/RJ-2018-009>. The package supports
+    applications in disease surveillance, epidemiological risk
+    assessment, and environmental health.
+License: MIT + file LICENSE
+Depends: R (>= 4.1.0)
+Imports: dplyr, ggplot2, lubridate, randomForest, sf, spdep, xgboost
+Suggests: knitr, rmarkdown, testthat (>= 3.0.0)
+Encoding: UTF-8
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.0
+NeedsCompilation: no
+Packaged: 2026-10-30 07:02:34 UTC; m
+Repository: CRAN
+Date/Publication: 2026-11-17 12:20:11 UTC

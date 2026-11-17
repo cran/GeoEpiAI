@@ -1,0 +1,9 @@
+utils::globalVariables(
+  c(
+    ".cases",
+    ".population",
+    ".date",
+    ".location",
+    ".data"
+  )
+)
